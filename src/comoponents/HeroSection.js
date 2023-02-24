@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero_img from '../assest/images/hero-img.png'
-import Article from './Article';
+
 
 const HeroSection = () => {
     return (
@@ -12,7 +12,6 @@ const HeroSection = () => {
            <h1>Computer Engineering</h1>
             <p>142,765 Computer Engineers follow this</p>
            </div>
-           <Article/>
         </div>
         
 );

@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../assest/images/whole.png'
-import vactor from '../assest/images/Vector.png'
+
 
 
 const Navbar = () => {
@@ -18,13 +18,10 @@ const Navbar = () => {
        <span><i class="bi bi-search"></i></span>
       </form>
       
-           
-      <div className='d-flex'>
-        <p className='pr-2'>Create account.
-        <span color='primary'> It’s free!</span>
-        </p>
-        <img className='mt-10 ml-7' style={{"width": "10px", "height":"5px"}} src={vactor} alt=''/>
-      </div>
+      <div class=" dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+     <a href='/signup'> Create account.<span className='text-primary'> It’s free!</span></a>
+  </div>     
+     
     </div>
   </div>
 </nav>
